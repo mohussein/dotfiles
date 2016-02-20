@@ -9,6 +9,7 @@ wget https://raw.githubusercontent.com/mohussein/dotfiles/master/.vimrc -O ~/.vi
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #Install vim plugins
 vim +PluginInstall +qall
+mkdir -p ~/.vim/undo ~/.vim/backups ~/.vim/swapfiles
 #ssh-keys
 ssh-keygen
 
