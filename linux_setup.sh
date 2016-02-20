@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #download programs
-sudo apt-get install --assume-yes git, vim, i3
+sudo apt-get install --assume-yes git vim i3 python-pip
 
 #vim 
 wget https://raw.githubusercontent.com/mohussein/dotfiles/master/.vimrc -O ~/.vimrc
